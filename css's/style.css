@@ -6,7 +6,7 @@
 
 body{
     height: 500vh;
-    background: #060B19;
+    background: var(--cor-primaria);
 
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@ header{
     height: 60px;
     border: 2px, solid, var(--cor-secundaria);
     border-radius: 50px;
-    background: #060B19;
+    background: var(--cor-primaria);
     box-shadow:
     0 0 1px #A8EEFF,
     0 0 3px #70D4FF,
@@ -69,7 +69,7 @@ header{
     height: 60px;
     border: 2px, solid, var(--cor-secundaria);
     border-radius: 50px;
-    background: #060B19;
+    background: var(--cor-primaria);
     box-shadow:
     0 0 1px #A8EEFF,
     0 0 3px #70D4FF,
@@ -100,7 +100,7 @@ header{
     display: none;
 }
 
-.barra{
+.line-1{
     width: 90%;
     height: 0.1px;
     background: var(--cor-secundaria);
@@ -116,12 +116,142 @@ main{
 }
 
 .intro{
-    width: 60%;
+    width: 80%;
     height: 10%;
-    background: rgb(218, 141, 141);
+
+    color: white;
+    font-size: var(--tamanho-subtitulo);
+    font-family: var(--fonte-principal);
 
     display: flex;
     flex-direction: row;
 }
 
+.intro span{
+    font-size: 60px;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+}
+
+.test{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container-2{
+    width: 70%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botão-dowload{
+    width: 45%;
+    height: 70px;
+    background: var(--cor-primaria);
+    border: 1px, solid, var(--cor-secundaria);
+    border-radius: 20px;
+    background: var(--cor-primaria);
+    box-shadow:
+    0 0 1px #A8EEFF,
+    0 0 3px #70D4FF,
+    0 0 5px #00BFFF,
+    0 0 5px rgba(0, 191, 255, 0.8);
+
+    color: var(--cor-secundaria);
+    font-size: 23px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botão-dowload img{
+    width: 50px;
+    height: 50px;
+}
+
+.botão-funcionalidades{
+    width: 45%;
+    height: 70px;
+    background: var(--cor-primaria);
+    border: 1px, solid, var(--cor-secundaria);
+    border-radius: 20px;
+    background: var(--cor-primaria);
+
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Laptop{
+    width: 1000px;
+    height: 700px;
+
+    position: absolute;
+    left: 700px;
+    top: 180px;
+}
+
+.space-1{
+    height: 500px;
+}
+
+.Sobre-sistema {
+    width: 60%;
+    height: auto;
+    padding: 40px;
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 50px;
+    box-shadow:
+    0 0 1px #A8EEFF,
+    0 0 3px #70D4FF,
+    0 0 5px #00BFFF,
+    0 0 5px rgba(0, 191, 255, 0.8);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Sobre-sistema .titulo {
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-titulo);
+    color: var(--cor-secundaria);
+}
+
+.Sobre-sistema p {
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-texto);
+    color: white;
+}
+
+.Sobre-sistema span {
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-subtitulo);
+    color: var(--cor-secundaria);
+}
+
+.Sobre-sistema .box {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+}
+
+.line-2{
+    width: 98%;
+    height: 0.1px;
+    background: var(--cor-secundaria);
+}
 
