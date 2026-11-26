@@ -13,6 +13,8 @@ body{
     align-items: center;
 }
 
+/* ---Menu--- */
+
 header{ 
     width: 100%;
     min-height: 200px;
@@ -118,6 +120,8 @@ main{
 
     gap: 500px;
 }
+
+/* ---Intro--- */
 
 .intro{
     width: 80%;
@@ -592,4 +596,71 @@ main{
 .Botão-dowload img{
     width: 50px;
     height: 50px;
+}
+
+/* ---Rodapé--- */
+
+footer{
+    width: 1900px;
+    height: 300px;
+
+    background: #00042B;
+
+    display: flex;
+    flex-direction: column;
+}
+
+footer .linha-1{
+    width: 1900px;
+    height: 150px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line-5{
+    width: 600px;
+    height: 0.1px;
+    background: var(--cor-secundaria);
+    box-shadow:
+    0 0 1px #A8EEFF,
+    0 0 3px #70D4FF,
+    0 0 5px #00BFFF,
+    0 0 5px rgba(0, 191, 255, 0.8);
+}
+
+footer .linha-1 img{
+    width: 100px;
+    height: 100px;
+}
+
+footer .linha-1 p{
+    width: 250px;
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-subtitulo);
+    color: white;
+    font-weight: bold;
+}
+
+footer .linha-1 strong{
+    color: var(--cor-secundaria);
+}
+
+footer .linha-2{
+    width: 1900px;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+
+footer .linha-2 p{
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    color: white;
 }
