@@ -709,8 +709,8 @@ footer .linha-2 p{
         display: none;
         position: absolute;
     
-        top: 100%;
-        left: 0;
+        top: 80px;
+        left: -50px;
     
         min-width: 200px;
         padding: 10px;
@@ -745,6 +745,14 @@ footer .linha-2 p{
         background: var(--cor-secundaria);
     }
 
+    main{
+        width: 700px;
+        height: 90%;
+    
+        gap: 500px;
+    }
+    
+
     /* ---Intro--- */
 
     .intro{
@@ -757,6 +765,10 @@ footer .linha-2 p{
 
         display: block;
         text-align: center;
+    }
+
+    .intro p{
+        width: 500px;
     }
 
     .container-intro{
@@ -773,10 +785,10 @@ footer .linha-2 p{
     }
 
     .Laptop{
-        width: 600px;
-        height: 400px;
+        width: 500px;
+        height: 350px;
 
-        left: 70px;
+        left: 130px;
         top: 600px;
     }
 
@@ -790,10 +802,17 @@ footer .linha-2 p{
 
     .funcionalidades{
         width: 700px;
+        height: auto;
     }
+
+
 
     .container-funcionalidades{
         width: 600px;
+    }
+
+    .box{
+        width: 500px;
     }
 
     /* ---Beneficios--- */
@@ -820,5 +839,53 @@ footer .linha-2 p{
         gap: 40px;
     }
 
+    /* ---Dowload--- */
+    
+    .dowload{
+        height: 500px;
+    }
+    .container-dowload{
+        width: 700px;
+        height: 200px;
+    }
+
+    .container-dowload  img{
+        display: none;
+    }
+
+    .Botão-dowload img{
+        display: block;
+    }
+
+    /* ---Rodapé--- */
+
+    footer{
+        width: 100%;
+        height: 300px;
+
+        align-items: center;
+    }
+
+    footer .linha-1{
+        width: 700px;
+        height: 150px;
+    }
+
+    .line-5{
+        width: 400px;
+    }
+
+    footer .linha-1 img{
+        width: 100px;
+        height: 100px;
+    }
+
+    footer .linha-1 p{
+        width: 250px;
+    }
+
+    footer .linha-2{
+        width: 700px;
+    }
 
 }
