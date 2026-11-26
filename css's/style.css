@@ -780,4 +780,45 @@ footer .linha-2 p{
         top: 600px;
     }
 
+    /* ---SOBRE O SISTEMA--- */
+
+    .sobre-sistema{
+        width: 700px;
+    }
+
+    /* ---Funcionalidades--- */
+
+    .funcionalidades{
+        width: 700px;
+    }
+
+    .container-funcionalidades{
+        width: 600px;
+    }
+
+    /* ---Beneficios--- */
+
+    .beneficios{
+        width: 700px;
+    }
+
+    .beneficios .titulo img{
+        width: 700px;
+        height: 200px;
+
+        left: 0;
+        top: 3600px;
+    }
+
+
+    .container-beneficios{
+        width: 700px;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+
 }
