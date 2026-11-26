@@ -687,6 +687,62 @@ footer .linha-2 p{
 
     .menu-burg{
         display: block;
+
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .dropdown {
+        position: relative;
+    }
+    
+    .dropdown summary {
+        color: white;
+        font-family: Arial;
+        font-size: 20px;
+        cursor: pointer;
+        list-style: none;
+    }
+    
+    .dropdown-conteudo {
+        display: none;
+        position: absolute;
+    
+        top: 100%;
+        left: 0;
+    
+        min-width: 200px;
+        padding: 10px;
+    
+        background: #101A30;
+        border: 1px solid #70D4FF;
+        border-radius: 10px;
+    
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .dropdown[open] .dropdown-conteudo {
+        display: flex;
+    }
+    
+    .dropdown-conteudo a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    .dropdown-conteudo a:hover {
+        color: #70D4FF;
+        background: #263D5B;
+    }
+
+    .line-menu{
+        width: 90%;
+        height: 0.1px;
+        background: var(--cor-secundaria);
     }
 
 }
