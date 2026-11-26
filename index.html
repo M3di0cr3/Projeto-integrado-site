@@ -1,790 +1,228 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body{
-    min-height: 100vh;
-    background: var(--cor-primaria);
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* ---Menu--- */
-
-header{ 
-    width: 100%;
-    min-height: 200px;
-
-    font-family: var(--fonte-principal);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.container{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-.CL-force{
-    width: 200px;
-    height: 60px;
-    border: 2px solid var(--cor-secundaria);
-    border-radius: 50px;
-    background: var(--cor-primaria);
-    box-shadow:
-    0 0 1px #A8EEFF,
-    0 0 3px #70D4FF,
-    0 0 5px #00BFFF,
-    0 0 5px rgba(0, 191, 255, 0.8);
-
-    color: white;
-    font-size: 25px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.CL-force img{
-    width: 60px;
-    height: 60px;
-}
-
-.CL-force span{
-    color: var(--cor-secundaria);
-}
-
-.Menu-barra{
-    width: 800px;
-    height: 60px;
-    border: 2px solid var(--cor-secundaria);
-    border-radius: 50px;
-    background: var(--cor-primaria);
-    box-shadow:
-    0 0 1px #A8EEFF,
-    0 0 3px #70D4FF,
-    0 0 5px #00BFFF,
-    0 0 5px rgba(0, 191, 255, 0.8);
-
-    color: white;
-    font-size: 25px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.Menu-barra div{
-    width: 2px;
-    height: 30px;
-    background: var(--cor-secundaria);
-    border-radius: 50px;
-    color: white;
-    text-decoration: none;
-}
-
-.Menu-barra span{
-    color: var(--cor-secundaria);
-}
-
-.menu-burg{
-    display: none;
-}
-
-.line-1{
-    width: 90%;
-    height: 0.1px;
-    background: var(--cor-secundaria);
-}
-
-main{
-    width: 100%;
-    height: 90%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    gap: 500px;
-}
-
-/* ---Intro--- */
-
-.intro{
-    width: 80%;
-    height: 300px;
-
-    color: white;
-    font-size: var(--tamanho-subtitulo);
-    font-family: var(--fonte-principal);
-
-    display: flex;
-    flex-direction: row;
-}
-
-.intro span{
-    font-size: 60px;
-    color: var(--cor-secundaria);
-    font-family: var(--fonte-principal);
-    font-weight: bold;
-}
-
-.container-intro{
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 40px;
-}
-
-.container-2{
-    width: 70%;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.botão-dowload{
-    width: 230px;
-    height: 80px;
-    background: var(--cor-primaria);
-    border: 1px, solid var(--cor-secundaria);
-    border-radius: 20px;
-    background: var(--cor-primaria);
-    box-shadow:
-    0 0 1px #A8EEFF,
-    0 0 3px #70D4FF,
-    0 0 5px #00BFFF,
-    0 0 5px rgba(0, 191, 255, 0.8);
-
-    color: var(--cor-secundaria);
-    font-size: 23px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-
-    transition: all 0.3s ease;
-}
-
-.botão-dowload:hover{
-    transform: scale(1.1);
-}
-
-.botão-dowload img{
-    width: 50px;
-    height: 50px;
-}
-
-.botão-funcionalidades{
-    width: 230px;
-    height: 80px;
-    background: var(--cor-primaria);
-    border: 1px solid var(--cor-secundaria);
-    border-radius: 20px;
-    background: var(--cor-primaria);
-
-    font-size: 23px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    transition: all 0.3s ease;
-}
-
-.botão-funcionalidades:hover{
-    transform: scale(1.1);
-}
-
-.Laptop{
-    width: 1000px;
-    height: 700px;
-
-    position: absolute;
-    left: 750px;
-    top: 180px;
-}
-
-/* ---SOBRE O SISTEMA--- */
-
-.sobre-sistema{
-    width: 1300px;
-    height: 700px;
-    padding: 40px;
-    border: 1px solid var(--cor-secundaria);
-    border-radius: 50px;
-    box-shadow:
-    0 0 1px #A8EEFF,
-    0 0 3px #70D4FF,
-    0 0 5px #00BFFF,
-    0 0 5px rgba(0, 191, 255, 0.8);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    gap: 40px;
-}
-
-.sobre-sistema .titulo{
-    width: 100%;
-    height: auto;
-
-    gap: 10px;
-}
-
-.sobre-sistema .titulo span{
-    font-family: var(--fonte-principal);
-    font-size: var(--tamanho-titulo);
-    color: var(--cor-secundaria);
-    font-weight: bold;
-}
-
-.sobre-sistema .titulo p{
-    font-family: var(--fonte-principal);
-    font-size: var(--tamanho-subtitulo);
-    color: white;
-}
-
-.line-2{
-    width: 90%;
-    height: 0.1px;
-    background: var(--cor-secundaria);
-}
-
-.container-sobre-sisema{
-    width: 100%;
-    height: 500px;
-
-    display: flex;
-    flex-direction: row;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-}
-
-.container-sobre-sisema .text{
-    width: 100%;
-    height: 200px;
-
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.container-sobre-sisema .text span{
-    font-family: var(--fonte-principal);
-    font-size: var(--tamanho-subtitulo);
-    color: var(--cor-secundaria);
-    font-weight: bold;
-}
-
-.container-sobre-sisema .text p{
-    font-family: var(--fonte-principal);
-    font-size: var(--tamanho-texto);
-    color: white;
-}
-
-.container-sobre-sisema .text strong{
-    color: var(--cor-terciaria);
-    font-weight: bold;
-}
-
-/* ---Funcionalidades--- */
-
-.funcionalidades{
-    width: 1900px;
-    height: auto;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 70px;
-}
-
-.funcionalidades .titulo{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-}
-
-.funcionalidades .titulo span{
-    font-family: var(--fonte-principal);
-    font-size: var(--tamanho-titulo);
-    color: var(--cor-secundaria);
-    font-weight: bold;
-}
-
-.line-3{
-    width: 400px;
-    height: 0.1px;
-    background: var(--cor-secundaria);
-    box-shadow:
-    0 0 1px #A8EEFF,
-    0 0 3px #70D4FF,
-    0 0 5px #00BFFF,
-    0 0 5px rgba(0, 191, 255, 0.8);
-}
-
-.container-funcionalidades{
-    width: 900px;
-    height: 800px;
-    padding: 40px;
-    border: 1px solid var(--cor-secundaria);
-    border-radius: 50px;
-    box-shadow:
-    0 0 1px #A8EEFF,
-    0 0 3px #70D4FF,
-    0 0 5px #00BFFF,
-    0 0 5px rgba(0, 191, 255, 0.8);
-
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.box{
-    width: 800px;
-    height: 100px;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 15px;
-}
-
-.box span{
-    font-family: var(--fonte-principal);
-    font-size: var(--tamanho-subtitulo);
-    color: var(--cor-secundaria);
-    font-weight: bold;
-}
-
-.box p{
-    font-family: var(--fonte-principal);
-    font-size: var(--tamanho-texto);
-    color: white;
-}
-
-.box strong{
-    color: var(--cor-terciaria);
-    font-weight: bold;
-}
-
-.box img{
-    width: 100px;
-    height: 100px;
-}
-
-.line-4{
-    width: 99%;
-    height: 1px;
-    border: 1px solid var(--cor-secundaria);
-}
-
-/* ---Beneficios--- */
-
-.beneficios{
-    width: 1900px;
-    height: auto;
-
-    display: flex;
-    flex-direction: column;
-}
-
-.beneficios .titulo{
-    display: flex;
-    flex-direction: column;
-
-    padding: 30px;
-}
-
-.beneficios .titulo img{
-    z-index: -1;
-    position: absolute;
-
-    left: 0;
-    top: 3550px;
-}
-
-.beneficios .titulo span{
-    font-family: var(--fonte-principal);
-    font-size: var(--tamanho-titulo);
-    color: var(--cor-secundaria);
-    font-weight: bold;
-
-    z-index: 1;
-}
-
-.beneficios .titulo p{
-    height: 400px;
-
-    font-family: var(--fonte-principal);
-    font-size: var(--tamanho-subtitulo);
-    color: white;
-    font-weight: bold;
-}
-
-.beneficios .titulo strong{
-    color: var(--cor-terciaria);
-}
-
-.container-beneficios{
-    width: 1900px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.rectangle{
-    width: 500px;
-    height: 400px;
-    padding: 40px;
-    border: 1px solid var(--cor-secundaria);
-    border-radius: 50px;
-    box-shadow:
-    0 0 1px #A8EEFF,
-    0 0 3px #70D4FF,
-    0 0 5px #00BFFF,
-    0 0 5px rgba(0, 191, 255, 0.8);
-
-    transition: all 0.3s ease;
-}
-
-.rectangle:hover{
-    transform: scale(1.1);
-}
-
-.rectangle img{
-    width: 120px;
-    height: 120px;
-}
-
-.linha-1{
-    width: 400px;
-    height: 150px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.linha-1 span{
-    font-family: var(--fonte-principal);
-    font-size: var(--tamanho-subtitulo);
-    color: white;
-
-    width: 90px;
-    height: 60px;
-    border: 1px solid var(--cor-secundaria);
-    border-radius: 50px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.linha-2{
-    width: 400px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-
-    text-align: left;
-    
-}
-
-.linha-2 span{
-    font-family: var(--fonte-principal);
-    font-size: var(--tamanho-subtitulo);
-    color: var(--cor-secundaria);
-    font-weight: bold;
-}
-
-.linha-2 p{
-    font-family: var(--fonte-principal);
-    font-size: var(--tamanho-subtitulo);
-    color: white;
-}
-
-/* ---Dowload--- */
-
-.dowload{
-    height: 800px;
-}
-
-.container-dowload{
-    width: 1600px;
-    height: 300px;
-    padding: 40px;
-    border: 1px solid var(--cor-secundaria);
-    border-radius: 50px;
-    box-shadow:
-    0 0 1px #A8EEFF,
-    0 0 3px #70D4FF,
-    0 0 5px #00BFFF,
-    0 0 5px rgba(0, 191, 255, 0.8);
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.dowload p{
-    width: 500px;
-    font-family: var(--fonte-principal);
-    font-size: var(--tamanho-subtitulo);
-    color: white;
-}
-
-.dowload strong{
-    color: var(--cor-terciaria);
-}
-
-.Botão-dowload{
-    width: 230px;
-    height: 80px;
-    background: var(--cor-primaria);
-    border: 1px, solid var(--cor-secundaria);
-    border-radius: 20px;
-    background: var(--cor-primaria);
-    box-shadow:
-    0 0 1px #A8EEFF,
-    0 0 3px #70D4FF,
-    0 0 5px #00BFFF,
-    0 0 5px rgba(0, 191, 255, 0.8);
-
-    color: var(--cor-secundaria);
-    font-size: 23px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-
-    transition: all 0.3s ease;
-}
-
-.Botão-dowload:hover{
-    transform: scale(1.1);
-}
-
-.Botão-dowload img{
-    width: 50px;
-    height: 50px;
-}
-
-/* ---Rodapé--- */
-
-footer{
-    width: 1900px;
-    height: 300px;
-
-    background: #00042B;
-
-    display: flex;
-    flex-direction: column;
-}
-
-footer .linha-1{
-    width: 1900px;
-    height: 150px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.line-5{
-    width: 600px;
-    height: 0.1px;
-    background: var(--cor-secundaria);
-    box-shadow:
-    0 0 1px #A8EEFF,
-    0 0 3px #70D4FF,
-    0 0 5px #00BFFF,
-    0 0 5px rgba(0, 191, 255, 0.8);
-}
-
-footer .linha-1 img{
-    width: 100px;
-    height: 100px;
-}
-
-footer .linha-1 p{
-    width: 250px;
-    font-family: var(--fonte-principal);
-    font-size: var(--tamanho-subtitulo);
-    color: white;
-    font-weight: bold;
-}
-
-footer .linha-1 strong{
-    color: var(--cor-secundaria);
-}
-
-footer .linha-2{
-    width: 1900px;
-    height: 150px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    gap: 5px;
-}
-
-footer .linha-2 p{
-    font-family: var(--fonte-principal);
-    font-size: 15px;
-    color: white;
-}
-
-@media (max-width: 768px){
-        /* ---Menu--- */
-
-    header{ 
-        width: 100%;
-        min-height: 200px;
-
-        justify-content: space-evenly;
-    }
-
-    .container{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-
-    }
-
-    .CL-force{
-        width: 220px;
-        height: 60px;
-    }
-
-    .Menu-barra{
-        display: none;
-    }
-
-    .menu-burg{
-        display: block;
-
-        display: flex;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .dropdown summary {
-    color: white;
-    font-family: var(--fonte-principal);
-    font-size: 20px;
-
-    cursor: pointer;
-    list-style: none;
-    }
-
-    .dropdown {
-        position: relative;
-    }
-
-    .dropdown-conteudo {
-        display: none;
-        position: absolute;
-
-        top: 100%;
-        left: 0;
-
-        min-width: 200px;
-        padding: 10px;
-
-        background: #101A30;
-        border: 1px solid #70D4FF;
-        border-radius: 10px;
-
-        flex-direction: column;
-        gap: 5px;
-    }
-
-    .dropdown[open] .dropdown-conteudo {
-        display: flex;
-    }
-
-    /* ---Intro--- */
-
-    .intro{
-        height: 600px;
-
-        flex-direction: column;
-        align-items: center;
-
-        text-align: center;
-    }
-
-    .intro span{
-        width: 600px;
-        font-size: 40px;
-
-        display: flex;
-        justify-content: center;
-    }
-
-    .intro p{
-        width: 500px;
-    }
-
-    .container-intro{
-        align-items: center;
-        gap: 10px;
-    }
-
-    .container-2{
-        width: 1000px;
-
-        justify-content: center;
-        align-items: center;
-        gap: 50px;
-    }
-
-    .botão-dowload{
-        width: 230px;
-        height: 80px;
-    }
-
-    .Laptop{
-        width: 550px;
-        height: 450px;
-
-        left: 100px;
-        top: 550px;
-    }
-
-
-}
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css's/base.css">
+    <link rel="stylesheet" href="css's/style.css">
+    <title>CLoud Force</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="CL-force">
+                <img src="img's/cloud-logo.png" alt="cloud">
+                <p>CL <span>Force</span></p>
+            </div>
+            <div class="Menu-barra">
+                <a href="#sobre-sistema"><p>Sobre o sistema</p></a>
+                <div></div>
+                <a href="#funcionalidades"><p>Funcionalidades</p></a>
+                <div></div>
+                <a href="#beneficios"><p>Beneficios</p></a>
+                <div></div>
+                <a href="#dowload"><span>Comece agora</span></a>
+            </div>
+              <nav class="menu-burg">
+                <details class="dropdown">
+                    <summary><img src="img's/menu burg (2).png" alt="menu-burg"></summary>
+                    <div class="dropdown-conteudo">
+                        <a href="#sobre-sistema">Sobre o sistema</a>
+                        <a href="#funcionalidades"><p>Funcionalidades</p></a>
+                        <a href="#beneficios">Beneficios</a>
+                        <a href="#dowload">Comece agora</a>
+                    </div>
+                </details>
+    </nav>
+        </div>
+        <div class="line-1"></div>
+    </header>
+
+  
+
+    <main>
+        <div class="intro">
+            <div class="container-intro">
+                <span>Simplifique a gestão do seu restaurante!</span>
+                <p>Gerencie pedidos, entregas, produtos, estoque e clientes em um único lugar com agilidade, precisão e acesso em tempo real de qualquer navegador.</p>
+                <div class="container-2">
+                    <div class="botão-dowload">
+                        <img src="img's/seta dowload.png" alt="seta dowload">
+                        <p>Baixar agora</p>
+                    </div>
+                    <a href="#funcionalidades"><div class="botão-funcionalidades"><p>Ver Funcionalidades</p></div></a>
+                    </div>
+                </div>
+            </div>
+            <img class="Laptop" src="img's/Laptop com Painel Neon em Nuvem 1.png" alt="laptop">
+        </div>
+
+        
+
+        <section id="sobre-sistema">
+            <div class="sobre-sistema">
+                <div class="titulo">
+                    <span>SOBRE O SISTEMA</span>
+                    <p>Uma solução pensada para simplificar a administração de restaurantes.</p>
+                </div>
+                <div class="line-2"></div>
+                <div class="container-sobre-sisema">
+                    <div class="text">
+                        <span>finalidade</span>
+                        <p>A <strong>La Pasta</strong> é uma solução desenvolvida para facilitar o gerenciamento de restaurantes e estabelecimentos de delivery, centralizando informações e automatizando processos administrativos.</p>
+                    </div>
+                    <div class="text">
+                        <span>Quais problemas busca solucionar?</span>
+                        <p>Falta de organização dos pedidos, dificuldades no controle de estoque, entregas e informações dos clientes.</p>
+                    </div>
+                    <div class="text">
+                        <span>Pra quem ele foi desenvolvido?</span>
+                        <p>Para restaurantes, lanchonetes e estabelecimentos que trabalham com delivery e desejam melhorar sua organização e gerenciamento.</p>
+                    </div>
+                    <div class="text">
+                        <span>Principais diferenciais</span>
+                        <p>Centralização das operações em um único sistema, interface intuitiva, praticidade e facilidade de gerenciamento.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="funcionalidades">
+            <div class="funcionalidades">
+                <div class="titulo">
+                    <div class="line-3"></div>
+                    <span>Funcionalidades</span>
+                    <div class="line-3"></div>
+
+                </div>
+                    <div class="container-funcionalidades">
+                        <div class="box">
+                           <div>
+                             <span>Tudo em um lugar só</span>
+                             <p>Conheça as principais ferramentas do <strong>La Pasta</strong></p>
+                           </div>
+                        </div>
+                        <div class="line-4"></div>
+                        <div class="box">
+                            <img src="img's/Prancheta.png" alt="Prancheta">
+                            <div>
+                                <span>Gestão de pedidos</span>
+                                <p>Acompanhe pedidos e seus respectivos status.</p>
+                            </div>
+                        </div>
+                        <div class="line-4"></div>
+                        <div class="box">
+                            <img src="img's/Moto.png" alt="moto">
+                            <div>
+                                <span>Gestão de entregas</span>
+                                <p>Controle entregadores e entregas realizadas.</p>
+                            </div>
+                        </div>
+                        <div class="line-4"></div>
+                        <div class="box">
+                            <img src="img's/caixa.png" alt="caixa">
+                            <div>
+                                <span>Controle de estoque</span>
+                                <p>Gerencie produtos e quantidades disponíveis.</p>
+                            </div>
+                        </div>
+                        <div class="line-4"></div>
+                        <div class="box">
+                            <img src="img's/seta subindo.png" alt="seta">
+                            <div>
+                                <span>Relatórios</span>
+                                <p>Visualize informações e indicadores do negócio.</p>
+                            </div>
+                        </div>
+                        <div class="line-4"></div>
+                        <div class="box">
+                            <img src="img's/papel.png" alt="papel">
+                            <div>
+                                <span>Histórico de vendas</span>
+                                <p>Consulte vendas e movimentações anteriores.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+
+        <section id="beneficios">
+            <div class="beneficios">
+                <div class="titulo">
+                    <img src="img's/caixa cortada.png" alt="caixa">
+                        <span>Mais eficiência em cada etapa!</span>
+                        <p>Por que escolher o <strong>La Pasta</strong></p>
+                </div>
+                <div class="container-beneficios">
+                    <div class="rectangle">
+                        <div class="linha-1">
+                            <img src="img's/controle de estoque.png" alt="controle-de-estoque">
+                            <span>01</span>
+                        </div>
+                        <div class="linha-2">
+                            <span>Controle de estoque</span>
+                            <p>Monitore seus produtos e evite falta ou exessos, mantendo o estoque equilibrado.</p>
+                        </div>
+                    </div>
+                    <div class="rectangle">
+                        <div class="linha-1">
+                            <img src="img's/gestão simplificada.png" alt="gestão-simples">
+                            <span>02</span>
+                        </div>
+                        <div class="linha-2">
+                            <span>Gestão simplificada</span>
+                            <p>Gerencie pedidos, entregadores e vendas em uma plataforma facil e intuitiva.</p>
+                        </div>
+                    </div>
+                    <div class="rectangle">
+                        <div class="linha-1">
+                            <img src="img's/sistema leve.png" alt="sistema-leve">
+                            <span>03</span>
+                        </div>
+                        <div class="linha-2">
+                            <span>Sistema Leve</span>
+                            <p>Rode o sistema com qualquer configuração e em qualquer navegador!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="dowload">
+            <div class="dowload">
+                <div class="container-dowload">
+                    <img src="img's/cloud.png" alt="cloud">
+                    <p>Transforme a gestão do seu restaurante com o <strong>La Pasta</strong></p>
+                    <a href=""><div class="Botão-dowload">
+                        <img src="img's/seta dowload.png" alt="seta">
+                        <span>Baixar agora</span>
+                    </div></a>
+                </div>
+                
+            </div>
+        </section>
+        </main>
+
+         <footer>
+            <div class="linha-1">
+                <div class="line-5"></div>
+                <img src="img's/cloud-logo.png" alt="">
+                <p>CLoud <strong>Force</strong></p>
+                <div class="line-5"></div>
+            </div>
+            <div class="linha-2">
+                <p>Simplificando a gestão do seu restaurante</p>
+                <p>Caio, Carlos, Sérgio</p>
+            </div>
+        </footer>
+</body>
+</html>
