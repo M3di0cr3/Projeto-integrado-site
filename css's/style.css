@@ -745,4 +745,39 @@ footer .linha-2 p{
         background: var(--cor-secundaria);
     }
 
+    /* ---Intro--- */
+
+    .intro{
+        justify-content: center;
+    }
+
+    .intro span{
+        width: 600px;
+        font-size: 40px;
+
+        display: block;
+        text-align: center;
+    }
+
+    .container-intro{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .container-2{
+        width: 700px;
+
+        justify-content: space-evenly;
+    }
+
+    .Laptop{
+        width: 600px;
+        height: 400px;
+
+        left: 70px;
+        top: 600px;
+    }
+
 }
