@@ -887,5 +887,293 @@ footer .linha-2 p{
     footer .linha-2{
         width: 700px;
     }
+}
 
+@media (max-width: 375px){
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* Menu */
+    header {
+        width: 100%;
+        min-height: 150px;
+    }
+
+    .container {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .CL-force {
+        width: 140px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .CL-force img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .dropdown-conteudo {
+        top: 80px;
+        left: -110px;
+    }
+
+    main {
+        width: 100%;
+        height: auto;
+        gap: 150px;
+        padding: 20px;
+    }
+
+    /* Introdução */
+    .intro {
+        width: 100%;
+        height: auto;
+    }
+
+    .container-intro {
+        width: 100%;
+        padding: 15px;
+        gap: 25px;
+    }
+
+    .intro span {
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .intro p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .container-2 {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .botão-dowload, .botão-funcionalidades {
+        width: 160px;
+        height: 55px;
+        font-size: 14px;
+    }
+
+    .botão-dowload img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .Laptop {
+        position: relative;
+
+        width: 90%;
+        max-width: 350px;
+        height: auto;
+
+        left: auto;
+        top: -100px;
+    }
+
+    /* Sobre o sistema */
+    .sobre-sistema {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        border-radius: 25px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-sistema .titulo span {
+        font-size: 25px;
+    }
+
+    .sobre-sistema .titulo p {
+        font-size: 14px;
+    }
+
+    .container-sobre-sisema {
+        width: 100%;
+        height: auto;
+
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .container-sobre-sisema .text {
+        height: auto;
+    }
+
+    /* Funcionalidades */
+    .funcionalidades {
+        width: 100%;
+        gap: 30px;
+    }
+
+    .funcionalidades .titulo {
+        gap: 15px;
+    }
+
+    .funcionalidades .titulo span {
+        font-size: 25px;
+    }
+
+    .line-3 {
+        width: 20%;
+    }
+
+    .container-funcionalidades {
+        width: 95%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .box {
+        width: 100%;
+        height: auto;
+        min-height: 80px;
+        gap: 10px;
+    }
+
+    .box img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .box span {
+        font-size: 16px;
+    }
+
+    .box p {
+        font-size: 13px;
+    }
+
+    /* Benefícios */
+    .beneficios {
+        width: 100%;
+
+        gap: 40px;
+    }
+
+    .beneficios .titulo {
+        padding: 20px;
+    }
+
+    .beneficios .titulo span {
+        font-size: 25px;
+    }
+
+    .beneficios .titulo p {
+        height: auto;
+        font-size: 16px;
+    }
+
+    .beneficios .titulo img {
+        max-width: 100%;
+        height: auto;
+
+        left: 0px;
+        top: 2420px;
+    }
+
+    .container-beneficios {
+        width: 95%;
+        gap: 25px;
+    }
+
+    .rectangle {
+        width: 95%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .rectangle img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .linha-1,
+    .linha-2 {
+        width: 100%;
+    }
+
+    .linha-1 {
+        height: auto;
+        gap: 10px;
+    }
+
+    .linha-2 p {
+        font-size: 15px;
+    }
+
+    /* Download */
+    .dowload {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container-dowload {
+        width: 95%;
+        height: 150px;
+
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .Botão-dowload{
+        width: 230px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .Botão-dowload img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .dowload p {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    /* Rodapé */
+    footer {
+        width: 100%;
+        height: auto;
+    }
+
+    footer .linha-1 {
+        width: 100%;
+        height: auto;
+
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .line-5 {
+        width: 40%;
+    }
+
+    footer .linha-1 img{
+        width: 50px;
+        height: 50px;
+    }
+
+    footer .linha-2 {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
 }
