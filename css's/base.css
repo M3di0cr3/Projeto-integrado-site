@@ -30,6 +30,19 @@
     }
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #70D4FF;
+}
+
 * {
     margin: 0;
     padding: 0;
