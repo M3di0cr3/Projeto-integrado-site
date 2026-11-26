@@ -155,8 +155,8 @@ main{
 }
 
 .botão-dowload{
-    width: 45%;
-    height: 70px;
+    width: 230px;
+    height: 80px;
     background: var(--cor-primaria);
     border: 1px, solid var(--cor-secundaria);
     border-radius: 20px;
@@ -188,14 +188,14 @@ main{
 }
 
 .botão-funcionalidades{
-    width: 45%;
-    height: 70px;
+    width: 230px;
+    height: 80px;
     background: var(--cor-primaria);
     border: 1px solid var(--cor-secundaria);
     border-radius: 20px;
     background: var(--cor-primaria);
 
-    font-size: 20px;
+    font-size: 23px;
 
     display: flex;
     flex-direction: row;
@@ -397,4 +397,134 @@ main{
 }
 
 /* ---Beneficios--- */
+
+.beneficios{
+    width: 1900px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.beneficios .titulo{
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px;
+}
+
+.beneficios .titulo img{
+    z-index: -1;
+    position: absolute;
+
+    left: 0;
+    top: 3550px;
+}
+
+.beneficios .titulo span{
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-titulo);
+    color: var(--cor-secundaria);
+    font-weight: bold;
+
+    z-index: 1;
+}
+
+.beneficios .titulo p{
+    height: 400px;
+
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-subtitulo);
+    color: white;
+    font-weight: bold;
+}
+
+.beneficios .titulo strong{
+    color: var(--cor-terciaria);
+}
+
+.container-beneficios{
+    width: 1900px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.rectangle{
+    width: 500px;
+    height: 400px;
+    padding: 40px;
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 50px;
+    box-shadow:
+    0 0 1px #A8EEFF,
+    0 0 3px #70D4FF,
+    0 0 5px #00BFFF,
+    0 0 5px rgba(0, 191, 255, 0.8);
+
+    transition: all 0.3s ease;
+}
+
+.rectangle:hover{
+    transform: scale(1.1);
+}
+
+.rectangle img{
+    width: 120px;
+    height: 120px;
+}
+
+.linha-1{
+    width: 400px;
+    height: 150px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.linha-1 span{
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-subtitulo);
+    color: white;
+
+    width: 90px;
+    height: 60px;
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha-2{
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    text-align: left;
+    
+}
+
+.linha-2 span{
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-subtitulo);
+    color: var(--cor-secundaria);
+    font-weight: bold;
+}
+
+.linha-2 p{
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-subtitulo);
+    color: white;
+}
+
+/* ---Dowload--- */
 
