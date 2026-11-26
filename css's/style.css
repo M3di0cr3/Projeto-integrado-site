@@ -221,7 +221,7 @@ main{
 
 .sobre-sistema{
     width: 1300px;
-    height: 600px;
+    height: 700px;
     padding: 40px;
     border: 1px solid var(--cor-secundaria);
     border-radius: 50px;
@@ -234,7 +234,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 20px;
+    gap: 40px;
 }
 
 .sobre-sistema .titulo{
@@ -296,4 +296,105 @@ main{
     color: white;
 }
 
+.container-sobre-sisema .text strong{
+    color: var(--cor-terciaria);
+    font-weight: bold;
+}
+
 /* ---Funcionalidades--- */
+
+.funcionalidades{
+    width: 1900px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.funcionalidades .titulo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.funcionalidades .titulo span{
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-titulo);
+    color: var(--cor-secundaria);
+    font-weight: bold;
+}
+
+.line-3{
+    width: 400px;
+    height: 0.1px;
+    background: var(--cor-secundaria);
+    box-shadow:
+    0 0 1px #A8EEFF,
+    0 0 3px #70D4FF,
+    0 0 5px #00BFFF,
+    0 0 5px rgba(0, 191, 255, 0.8);
+}
+
+.container-funcionalidades{
+    width: 900px;
+    height: 800px;
+    padding: 40px;
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 50px;
+    box-shadow:
+    0 0 1px #A8EEFF,
+    0 0 3px #70D4FF,
+    0 0 5px #00BFFF,
+    0 0 5px rgba(0, 191, 255, 0.8);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box{
+    width: 800px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.box span{
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-subtitulo);
+    color: var(--cor-secundaria);
+    font-weight: bold;
+}
+
+.box p{
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-texto);
+    color: white;
+}
+
+.box strong{
+    color: var(--cor-terciaria);
+    font-weight: bold;
+}
+
+.box img{
+    width: 100px;
+    height: 100px;
+}
+
+.line-4{
+    width: 99%;
+    height: 1px;
+    border: 1px solid var(--cor-secundaria);
+}
+
+/* ---Beneficios--- */
+
