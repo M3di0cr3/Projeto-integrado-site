@@ -664,3 +664,29 @@ footer .linha-2 p{
     font-size: 15px;
     color: white;
 }
+
+@media (max-width: 768px){
+    /* ---Menu--- */
+
+    header{
+        justify-content: space-evenly;
+    }
+
+    .container{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .CL-force span{
+        color: var(--cor-secundaria);
+    }
+
+    .Menu-barra{
+       display: none;
+    }
+
+    .menu-burg{
+        display: block;
+    }
+
+}
